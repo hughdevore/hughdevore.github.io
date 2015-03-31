@@ -7,7 +7,7 @@ var browserSync = require('browser-sync');
 var reload = browserSync.reload;
 
 var styles = function(destination) {
-  return gulp.src('app/styles/main.css')
+  return gulp.src('app/styles/portfolio.css')
     .pipe($.postcss([
       require('autoprefixer-core')({browsers: ['last 1 version']})
     ]))
@@ -19,7 +19,7 @@ gulp.task('devStyles', function () {
 });
 
 gulp.task('distStyles', function () {
-  styles('/Users/hughdevore/Portfolio/styles');
+  styles('/Users/hughdevore/hughdevore.github.io/app/styles');
 });
 
 gulp.task('jshint', function () {
@@ -40,16 +40,16 @@ gulp.task('html', ['devStyles'], function () {
     .pipe(assets.restore())
     .pipe($.useref())
     .pipe($.if('*.html', $.minifyHtml({conditionals: true, loose: true})))
-    .pipe(gulp.dest('/Users/hughdevore/Portfolio'));
+    .pipe(gulp.dest('/Users/hughdevore/hughdevore.github.io'));
 });
 
 gulp.task('images', function () {
-  return gulp.src('app/images/**/*')
+  return gulp.src('app/img/**/*')
     // .pipe($.cache($.imagemin({
     //   progressive: true,
     //   interlaced: true
     // })))
-    .pipe(gulp.dest('/Users/hughdevore/Portfolio/images'));
+    .pipe(gulp.dest('/Users/hughdevore/hughdevore.github.io/img'));
 });
 
 gulp.task('fonts', function () {
@@ -57,7 +57,7 @@ gulp.task('fonts', function () {
     .pipe($.filter('**/*.{eot,svg,ttf,woff}'))
     .pipe($.flatten())
     .pipe(gulp.dest('.tmp/fonts'))
-    .pipe(gulp.dest('/Users/hughdevore/Portfolio/fonts'));
+    .pipe(gulp.dest('/Users/hughdevore/hughdevore.github.io/fonts'));
 });
 
 gulp.task('extras', function () {
@@ -67,10 +67,10 @@ gulp.task('extras', function () {
     'node_modules/apache-server-configs/dist/.htaccess'
   ], {
     dot: true
-  }).pipe(gulp.dest('/Users/hughdevore/Portfolio'));
+  }).pipe(gulp.dest('/Users/hughdevore/hughdevore.github.io'));
 });
 
-gulp.task('clean', require('del').bind(null, ['.tmp', '/Users/hughdevore/Portfolio']));
+gulp.task('clean', require('del').bind(null, ['.tmp', '/Users/hughdevore/hughdevore.github.io']));
 
 gulp.task('serve', function () {
   browserSync({
@@ -89,7 +89,7 @@ gulp.task('serve', function () {
     'app/*.html',
     '.tmp/styles/**/*.css',
     'app/scripts/**/*.js',
-    'app/images/**/*'
+    'app/img/**/*'
   ]).on('change', reload);
 
   gulp.watch('app/styles/**/*.css', ['devStyles', reload]);
@@ -108,7 +108,7 @@ gulp.task('wiredep', function () {
 });
 
 gulp.task('build', ['jshint', 'html', 'images', 'fonts', 'extras', 'distStyles'], function () {
-  return gulp.src('/Users/hughdevore/Portfolio/**/*').pipe($.size({title: 'build', gzip: true}));
+  return gulp.src('/Users/hughdevore/hughdevore.github.io/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 
 gulp.task('default', ['clean'], function () {
