@@ -232,7 +232,7 @@ header .intro-text .skills {
 ********************
 
 section {
-    padding: 75px;
+    padding: 75px 5%;
 }
 
 section h2 {
@@ -245,10 +245,10 @@ section.success {
     background: rgb(240, 234, 181);
     line-height: 1.7;
     text-align: left;
-    padding: 75px;
+    padding: 75px 5%;
 }
 section.development {
-    padding: 75px;
+    padding: 75px 0;
 }
 
 @media(max-width:767px) {
