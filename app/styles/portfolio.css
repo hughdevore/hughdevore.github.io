@@ -102,17 +102,12 @@ hr.star-primary:after {
 ******************
 ***** HEADER *****
 ******************
-
-
 header #header-img {
-    padding: 100px !important;
-    background-image: url(app/img/background.jpeg) !important;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    padding-top: 200px !important;
 }
 
 header .intro-text .name {
+    margin-top: 200px !important; 
     display: block;
     text-transform: uppercase;
     font-family: 'Hammersmith One', sans-serif;
@@ -130,14 +125,16 @@ header .intro-text .skills {
         padding-top: 100px;
         padding-bottom: 50px;
     }
-
+    header .intro-text {
+        margin: 50px 20px !important;   
+    }
+    
     header .intro-text .name {
         font-size: 3.75em;
     }
 
     header .intro-text .skills {
         font-size: 1.75em;
-
     }
 }
 
@@ -477,6 +474,7 @@ form .row:first-child .floating-label-form-group {
 footer .footer-below {
     padding: 25px 0;
     background-color: #233140;
+    color: white;
 }
 
 .btn-social {
