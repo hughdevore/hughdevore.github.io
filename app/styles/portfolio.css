@@ -1,6 +1,6 @@
-****************
-***** PAGE *****
-****************
+/****************/
+/****** PAGE ******/
+/******************/
 
 body {
     overflow-x: hidden;
@@ -98,25 +98,19 @@ hr.star-primary:after {
 
 
 
+
 ******************
 ***** HEADER *****
 ******************
 
-header {
-    text-align: center;
-    color: rgb(101, 148, 205);
-    background: white;
-}
 
-header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
+header#header-img {
+    padding: 100px !important;
+    background-image: url("../../img/profile2.jpg") !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 
-header img {
-    display: block;
-     margin: 0 auto;
-    margin-bottom: 25px;
 }
 
 header .intro-text .name {
@@ -125,13 +119,11 @@ header .intro-text .name {
     font-family: 'Hammersmith One', sans-serif;
     font-size: 2em;
     font-weight: 700;
-    color: #2C3E50;
 }
 
 header .intro-text .skills {
     font-size: 1.5em;
     font-weight: 300;
-    color: #2C3E50;
 }
 
 @media(min-width:768px) {
