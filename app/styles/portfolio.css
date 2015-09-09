@@ -106,7 +106,7 @@ hr.star-primary:after {
 
 header#header-img {
     padding: 100px !important;
-    background-image: url("../../img/profile2.jpg") !important;
+    background-image: url("../img/background.jpeg") !important;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
