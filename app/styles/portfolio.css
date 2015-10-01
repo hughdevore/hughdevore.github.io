@@ -107,7 +107,7 @@ header #header-img {
 }
 
 header .intro-text .name {
-    margin-bottom: 200px !important; 
+    margin-top: 200px !important; 
     display: block;
     text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif;
@@ -127,7 +127,8 @@ header .intro-text .skills {
         padding-bottom: 50px;
     }
     header .intro-text {
-        margin: 50px 20px !important;   
+        margin: 50px 20px !important;
+        padding-bottom: 55px;   
     }
     
     header .intro-text .name {
