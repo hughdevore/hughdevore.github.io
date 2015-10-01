@@ -126,10 +126,12 @@ header .intro-text .skills {
         padding-top: 25px;
         padding-bottom: 50px;
     }
-    header.intro-text {
-        margin: 50px 20px !important; 
+    header .intro-text {
+        margin: 50px 20px !important;   
     }
-    
+    .col-lg-12.text-center {
+        padding-bottom: 55px !important;
+    }
     header .intro-text .name {
         font-size: 3.75em;
     }
@@ -138,11 +140,8 @@ header .intro-text .skills {
         font-size: 1.75em;
     }
 }
-@media(max-width:768px) {
-    header.intro-text {
-        padding-bottom: 55px !important;
-    }
-}
+
+
 
 
 ******************
