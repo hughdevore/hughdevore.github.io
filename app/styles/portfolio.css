@@ -126,13 +126,12 @@ header .intro-text .skills {
         padding-top: 25px;
         padding-bottom: 50px;
     }
+
     header div.intro-text {
         margin: 50px 20px !important;
         padding-bottom: 55px !important;   
     }
-    .col-lg-12.text-center {
 
-    }
     header .intro-text .name {
         font-size: 3.75em;
     }
