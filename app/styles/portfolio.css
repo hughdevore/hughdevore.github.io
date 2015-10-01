@@ -129,7 +129,7 @@ header .intro-text .skills {
     header .intro-text {
         margin: 50px 20px !important;   
     }
-    .col-lg-12.text-center {
+    header .col-lg-12.text-center {
         padding-bottom: 55px !important;
     }
     header .intro-text .name {
