@@ -30,7 +30,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     color: rgb(101, 148, 205);
     padding-top: 25px;
@@ -103,16 +103,17 @@ hr.star-primary:after {
 ***** HEADER *****
 ******************
 header #header-img {
-    padding-top: 200px !important;
+    padding-top: 250px !important;
 }
 
 header .intro-text .name {
-    margin-top: 200px !important; 
+    margin-bottom: 200px !important; 
     display: block;
     text-transform: uppercase;
-    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 2em;
     font-weight: 700;
+    
 }
 
 header .intro-text .skills {
@@ -122,11 +123,12 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 100px;
+        padding-top: 25px;
         padding-bottom: 50px;
     }
     header .intro-text {
-        margin: 50px 20px !important;   
+        margin: 50px 20px !important;
+        padding-bottom: 55px;
     }
     
     header .intro-text .name {
@@ -135,6 +137,7 @@ header .intro-text .skills {
 
     header .intro-text .skills {
         font-size: 1.75em;
+        padding-bottom: ;
     }
 }
 
@@ -171,7 +174,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-weight: 700;
 }
 .navbar-default .navbar-toggle {
@@ -463,6 +466,7 @@ form .row:first-child .floating-label-form-group {
 .footer-col p{
     text-align: center;
     padding-top: 20px;
+    font-size: 30px;
 }
 .footer-col h3 {
     text-align: center;
