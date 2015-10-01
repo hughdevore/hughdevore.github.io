@@ -128,8 +128,11 @@ header .intro-text .skills {
     }
 
     header div.intro-text {
-        margin: 50px 20px !important;
-        padding-bottom: 55px !important;   
+        margin: 50px 20px !important; 
+    }
+
+    .intro-text {
+        padding-bottom: 55px !important;  
     }
 
     header .intro-text .name {
