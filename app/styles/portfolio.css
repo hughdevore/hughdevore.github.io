@@ -466,7 +466,7 @@ form .row:first-child .floating-label-form-group {
     padding: 80px;
     background-color: #2c3e50;
 }
-@media(max-width:768px) {
+@media(min-width:768px) {
 	.footer-above {
     	padding: 0px;
     }
