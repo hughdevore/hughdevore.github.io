@@ -630,7 +630,7 @@ footer .footer-below {
 .portfolio-modal .button {
     background-color: rgb(101, 148, 205);
 }
- @media (min-width: 500px) {
+ @media (max-width: 500px) {
     header .intro-text .name {
         margin-top: 150px !important; 
     }
