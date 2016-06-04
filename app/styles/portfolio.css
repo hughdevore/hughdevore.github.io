@@ -104,6 +104,13 @@ hr.star-primary:after {
 ******************
 header #header-img {
     padding-top: 250px !important;
+    background-image: url(app/img/background2.jpeg) !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    min-height: 760px;
+    height: 100vh;
 }
 
 header .intro-text .name {
