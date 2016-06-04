@@ -102,7 +102,7 @@ hr.star-primary:after {
 ******************
 ***** HEADER *****
 ******************
-header #header-img {
+body #page-top header #header-img {
     padding-top: 250px !important;
     background-image: url(app/img/background2.jpeg) !important;
     background-repeat: no-repeat;
