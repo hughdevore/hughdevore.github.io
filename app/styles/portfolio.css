@@ -99,9 +99,9 @@ hr.star-primary:after {
 
 
 
-******************
-***** HEADER *****
-******************
+/******************/
+/***** HEADER *****/
+/******************/
 header#header-img {
     padding-top: 250px !important;
     background-image: url(app/img/background2.jpeg) !important;
@@ -158,9 +158,9 @@ header .intro-text .skills {
 
 
 
-******************
-***** NAVBAR *****
-******************
+/******************/
+/***** NAVBAR *****/
+/******************/
 
 @media(min-width:768px) {
     .navbar-fixed-top {
@@ -232,9 +232,9 @@ header .intro-text .skills {
 
 
 
-********************
-***** SECTIONS *****
-********************
+/********************/
+/***** SECTIONS *****/
+/********************/
 
 section {
     padding: 75px 5%;
@@ -300,9 +300,9 @@ section img {
 
 
 
-*********************
-***** PORTFOLIO *****
-*********************
+/*********************/
+/***** PORTFOLIO *****/
+/*********************/
 
 #portfolio .portfolio-item {
     right: 0;
@@ -452,9 +452,9 @@ form .row:first-child .floating-label-form-group {
 
 
 
-******************
-***** FOOTER *****
-******************
+/********************/
+/****** FOOTER ******/
+/********************/
 
 .footer-above {
     color: #fff;
@@ -556,9 +556,9 @@ footer .footer-below {
 
 
 
-******************
+/*******************
 ***** MODALS *****
-******************
+*******************/
 
 .portfolio-modal .modal-content {
     padding: 100px 0;
