@@ -634,4 +634,7 @@ footer .footer-below {
     header .intro-text .name {
         margin-top: 150px !important; 
     }
+    header#header-img {
+        background-position: center right;
+    }
  }
