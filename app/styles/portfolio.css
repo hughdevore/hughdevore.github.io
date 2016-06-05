@@ -632,9 +632,6 @@ footer .footer-below {
 }
  @media (max-width: 500px) {
     header .intro-text .name {
-        margin-top: 150px !important; 
-    }
-    header#header-img {
-        background-position: center right;
+        margin-top: 450px !important; 
     }
  }
