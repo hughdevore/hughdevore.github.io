@@ -156,7 +156,7 @@ header .intro-text .skills {
         background-position: bottom left;
         background-size: cover;
         color: white;
-        min-height: none;
+        min-height: 0;
         height: 100vh;
         bottom: 0;
     }
