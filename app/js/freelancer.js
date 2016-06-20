@@ -6,25 +6,22 @@
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
-    // st = $(document).scrollTop();
-    // console.log(st);
+    st = $(document).scrollTop();
+    console.log(st);
 
-    // $('body').on('click', '.page-scroll a', function(event) {
-    //     var $anchor = $(this);
-    //     $('html, body').stop().animate({
-    //         scrollTop: $($anchor.attr('href')).offset().top
-    //     }, 1500, 'easeInOutExpo');
-    //     event.preventDefault();
-    // });
+    $('body').on('click', '.page-scroll a', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
 
-    // $('body').scroll(function() {
-    //     if(st <= 700) {
-    //         $('.page-scroll a').css("display","none");
-    //     } else {
-    //         $('.page-scroll a').css("display","block");
-    //     } 
-    // });
-
+    if(st <= 700) {
+        $('.page-scroll a').css("display","none");
+    } else {
+        $('.page-scroll a').css("display","block");
+    }
 });
 
 // Floating label headings for the contact form
