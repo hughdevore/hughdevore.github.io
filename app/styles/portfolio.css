@@ -673,6 +673,6 @@ footer .footer-below {
  @media (max-width: 500px) {
     header .intro-text .name {
         bottom: 0 !important; 
-        margin-top: 200px !important;
+        margin-top: 175px !important;
     }
  }
