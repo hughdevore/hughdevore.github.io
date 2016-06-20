@@ -19,6 +19,8 @@ $(function() {
 
     if(st <= 700) {
         $('.page-scroll a').css("display","none");
+    } else {
+        $('.page-scroll a').css("display","block");
     }
 });
 
