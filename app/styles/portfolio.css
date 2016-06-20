@@ -149,6 +149,17 @@ header .intro-text .skills {
     header .intro-text .skills {
         font-size: 1.75em;
     }
+    header#header-img {
+        padding-top: 0px !important;
+        background-image: url(../img/background2.jpeg) !important;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        color: white;
+        min-height: none;
+        height: 100vh;
+        bottom: 0;
+    }
 }
 @media(max-width:768px) {
     header .container {
