@@ -538,6 +538,7 @@ footer .footer-below {
    padding:0;
    border: none;
    background-color: transparent;
+   display: none;
 }
 .scroll-top .btn {
     width: 50px;
