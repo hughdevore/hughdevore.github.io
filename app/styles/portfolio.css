@@ -149,9 +149,14 @@ header .intro-text .skills {
     header .intro-text .skills {
         font-size: 1.75em;
     }
+}
+@media(max-width:768px) {
+    header .container {
+        padding-bottom: 55px;
+    }
     header#header-img {
         padding-top: 0px !important;
-        background-image: url(../img/background3.jpeg) !important;
+        background-image: url(../img/background3.png) !important;
         background-repeat: no-repeat;
         background-position: bottom left;
         background-size: cover;
@@ -159,11 +164,6 @@ header .intro-text .skills {
         min-height: 0;
         height: 100vh;
         bottom: 0;
-    }
-}
-@media(max-width:768px) {
-    header .container {
-        padding-bottom: 55px;
     }
 }
 
