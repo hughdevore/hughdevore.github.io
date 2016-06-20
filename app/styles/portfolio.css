@@ -590,6 +590,10 @@ footer .footer-below {
     color: RGBA(119, 195, 100, 1);
 }
 
+.modal-close .btn i:hover {
+    color: red;
+}
+
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
 }
