@@ -9,21 +9,23 @@ $(function() {
     st = $(document).scrollTop();
     console.log(st);
 
-    $('body').on('click', '.page-scroll a', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
-    });
+    $('.scroll-top').css("display","none");
 
-    $('body').scroll(function() {
-        if(st <= 700) {
-            $('.scroll-top a').css("display","none");
-        } else {
-            $('.scroll-top a').css("display","block");
-        }
-    });
+    // $('body').on('click', '.page-scroll a', function(event) {
+    //     var $anchor = $(this);
+    //     $('html, body').stop().animate({
+    //         scrollTop: $($anchor.attr('href')).offset().top
+    //     }, 1500, 'easeInOutExpo');
+    //     event.preventDefault();
+    // });
+
+    // $('body').scroll(function() {
+    //     if(st <= 700) {
+            
+    //     } else {
+    //         $('.scroll-top a').css("display","block");
+    //     }
+    // });
     
 });
 
