@@ -17,11 +17,14 @@ $(function() {
         event.preventDefault();
     });
 
-    if(st <= 700) {
-        $('.page-scroll a').css("display","none");
-    } else {
-        $('.page-scroll a').css("display","block");
-    }
+    $('body').scroll(function() {
+        if(st <= 700) {
+            $('.scroll-top a').css("display","none");
+        } else {
+            $('.scroll-top a').css("display","block");
+        }
+    });
+    
 });
 
 // Floating label headings for the contact form
