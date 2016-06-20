@@ -578,6 +578,10 @@ footer .footer-below {
     margin-bottom: 30px;
 }
 
+.modal-body p {
+    text-align: left;
+}
+
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
 }
