@@ -20,7 +20,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: rgb(44, 62, 80);
+    color: RGBA(100, 147, 210, 1);
 }
 
 h1,
@@ -206,7 +206,7 @@ header .intro-text .skills {
     border-color: #6594CD;
 }
 .navbar-default .navbar-toggle:hover {
-    background-color: rgb(44, 62, 80);
+    background-color: RGBA(100, 147, 210, 1);
 }
 .navbar a:focus {
     outline: 0;
@@ -218,16 +218,16 @@ header .intro-text .skills {
 
 .navbar .navbar-nav li a:focus {
     outline: 0;
-    color: rgb(44, 62, 80);
+    color: RGBA(100, 147, 210, 1);
 }
 .navbar .navbar-nav li a:hover {
-    color: rgb(44, 62, 80);
+    color: RGBA(100, 147, 210, 1);
 }
 .navbar-default .navbar-brand {
     display: inline-block;
 }
 .navbar-default .navbar-brand:hover {
-    color: rgb(44, 62, 80);
+    color: RGBA(100, 147, 210, 1);
 }
 
 .navbar-default,
